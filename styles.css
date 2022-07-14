@@ -1,0 +1,61 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    width: 200px;
+	height: 160px;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	background-image: url('images/Ostermundigen2.jpg');
+	border: 5px solid #A8DADC;
+	height: 500px;
+	background-repeat: no-repeat; 
+    background-size: cover;
+	margin: 20px 20px;
+	align-items: center;
+}
+
+.main-hd {
+	color: white;
+	background: cornflowerblue;
+	opacity: 0.8;	
+	margin-top: 20px;
+	padding: 20px;
+}
+
+.main-tx {
+	color: white;
+	background: cornflowerblue;
+	opacity: 0.8;
+	width: 700px;
+	padding: 20px;
+}
+
+.places {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.image {
+	border: 5px solid #A8DADC;
+}
+
+.top-off {
+	margin-top: 10px;
+}
